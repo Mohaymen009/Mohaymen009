@@ -1,36 +1,41 @@
-# 🔬 Anti-Cheat Researcher
+# Hi, I'm Mohaymen 👋
 
-### Hardware Security Research
+### Developer · Cybersecurity · Low-level tinkerer
 
-I study how modern anti-cheat systems — **Riot Vanguard, Easy Anti-Cheat, BattlEye, FACEIT** — detect, fingerprint, and classify hardware, and I publish what I learn for the security research community.
-
-All research is conducted **ethically**: on my own hardware and test systems, with explicit permission, and published responsibly. The goal is understanding detection methodology — how endpoints are enumerated, probed, and trusted — not abusing it.
+I build things across the stack, from web apps and automation to firmware and system internals,
+and I do cybersecurity work on the side. I also build a fair number of projects just because
+they're fun.
 
 ---
 
-### 🔍 Research Focus
+### 🧰 What I do
 
-- **Anti-cheat internals** — PCIe device enumeration, config-space & BAR probing, hardware fingerprinting, detection-vector analysis
-- **DMA hardware research** — custom FPGA firmware on Xilinx Artix-7 (100T/75T), PCIe endpoint emulation, FT601/USB3 data acquisition
-- **Driver reverse engineering** — deep IDA Pro analysis of Windows kernel drivers: NDIS miniports, PCI/e behavior, anti-cheat kernel modules
-- **Windows internals** — PnP enumeration, kernel-mode driver init flows, hardware identity & device-instance lifecycle
+- **Full-stack development:** web apps, dashboards and self-hosted platforms with TypeScript,
+  React and Node
+- **Cybersecurity:** hardware and software security work, reverse engineering, and digging into
+  how systems identify, trust and protect themselves
+- **Low-level and hardware:** FPGA and PCIe firmware, Windows internals and drivers, embedded C
+- **Automation and AI:** bots, scrapers, async tooling and AI-powered apps
+- **Fun projects:** ports, utilities and experiments that scratch an itch
 
 ### 🛠️ Toolchain
 
+![TypeScript](https://img.shields.io/badge/TypeScript-web-3178C6)
+![React](https://img.shields.io/badge/React-frontend-61DAFB)
+![Python](https://img.shields.io/badge/Python-tooling-yellow)
+![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-systems-grey)
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-FPGA-8A2BE2)
 ![Vivado](https://img.shields.io/badge/Vivado-2023.2-blue)
-![C](https://img.shields.io/badge/C-embedded-grey)
-![Python](https://img.shields.io/badge/Python-tooling-yellow)
 ![IDA Pro](https://img.shields.io/badge/IDA_Pro-reversing-red)
 ![PCIe](https://img.shields.io/badge/PCIe-Gen1--Gen2-00B4D8)
 
-`pcileech-fpga` · `WinDbg` · `mmiotrace` · `lspci/setpci` · x86-64 asm
+`WinDbg` · `lspci/setpci` · `pymobiledevice3` · x86-64 asm
 
-### 📌 Current Work
+### 📌 Lately
 
-- PCIe endpoint identity & behavioral emulation research on Artix-7 DMA hardware
-- Driver handshake protocol reconstruction from live MMIO traces
-- Detection-surface audits of public anti-cheat builds
+- Shipping web projects and self-hosted tools
+- PCIe and FPGA firmware experiments
+- Small open-source tools and ports (see my pinned repos)
 
 ---
 
